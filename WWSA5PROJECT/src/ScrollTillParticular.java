@@ -20,8 +20,8 @@ public class ScrollTillParticular
 			driver.get("https://www.selenium.dev");
 			 WebElement newselement =driver.findElement(By.xpath("//h2[text()='News']"));
 			 Point loc = newselement.getLocation();
-			 int xaxis=loc.getX();
-			 int yaxis=loc.getY();
+			 loc.getX();
+			 loc.getY();
 			 
 			  JavascriptExecutor jse =(JavascriptExecutor)driver;
 			  
